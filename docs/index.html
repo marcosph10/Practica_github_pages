@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentación de Mi Programa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            background-color: #34495e;
+            color: white;
+            padding: 1em;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            margin: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        pre {
+            background-color: #ecf0f1;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Documentación de Mi Programa</h1>
+    </header>
+    <nav>
+        <a href="#introduccion">Introducción</a>
+        <a href="#instalacion">Instalación</a>
+        <a href="#uso">Uso</a>
+        <a href="#ejemplos">Ejemplos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <main>
+        <section id="introduccion">
+            <h2>Introducción</h2>
+            <p>Bienvenido a la documentación de Mi Programa. Esta guía te ayudará a entender cómo instalar, utilizar y aprovechar al máximo las funcionalidades de nuestro software.</p>
+        </section>
+        <section id="instalacion">
+            <h2>Instalación</h2>
+            <p>Para instalar Mi Programa, sigue estos pasos:</p>
+            <pre><code>npm install mi-programa</code></pre>
+        </section>
+        <section id="uso">
+            <h2>Uso</h2>
+            <p>Después de instalar Mi Programa, puedes empezar a usarlo de la siguiente manera:</p>
+            <pre><code>const miPrograma = require('mi-programa');
+miPrograma.iniciar();</code></pre>
+        </section>
+        <section id="ejemplos">
+            <h2>Ejemplos</h2>
+            <p>Aquí tienes algunos ejemplos de cómo utilizar Mi Programa:</p>
+            <pre><code>// Ejemplo 1: Inicializar
+miPrograma.iniciar();
+
+// Ejemplo 2: Configuración
+miPrograma.configurar({ opcion: 'valor' });</code></pre>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Si tienes alguna pregunta, no dudes en <a href="mailto:soporte@miprograma.com">contactarnos</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mi Programa. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
